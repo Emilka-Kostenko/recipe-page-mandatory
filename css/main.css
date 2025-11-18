@@ -1023,19 +1023,13 @@ p[data-category="meets"] {
 }
 /*data-categories colors end*/ 
 
-
-/* ===========================
-   MOBILE RESPONSIVE (Simple)
-   =========================== */
 @media (max-width: 768px) {
 
-  /* Remove big sections on mobile */
   .image-section,
   .categories {
       display: none !important;
   }
 
-  /* General layout */
   .hero-container,
   .todays_recepies_content,
   .content_area_blocks_area_row {
@@ -1048,7 +1042,6 @@ p[data-category="meets"] {
     
   }
 
-  /* Stretch text full width */
   .hero-text,
   .search-box,
   .content_area_block_text {
@@ -1057,7 +1050,7 @@ p[data-category="meets"] {
       padding: 20px;
   }
 
-  /* Cards to single column */
+
   .todays_recepies_content {
       grid-template-columns: 1fr !important;
       gap: 20px;
@@ -1066,13 +1059,13 @@ p[data-category="meets"] {
     grid-row: 6;
   }
 
-  /* Images inside recipe cards */
+ 
   .todays_recepies_content_block_image img {
       height: 150px;
       object-fit: cover;
   }
 
-  /* Recepies page - remove all images */
+
   .soup-image-top,
   .soup-image-bottom,
   .soup-image-bottom img,
@@ -1080,14 +1073,14 @@ p[data-category="meets"] {
       display: none !important;
   }
 
-  /* Ingredients two columns => one column */
+  
   .ingredients-left,
   .ingredients-right {
       grid-column: 1 / -1 !important;
   }
 
 
-  /* Footer stacking */
+
   .footer-area {
       grid-template-columns: 1fr !important;
       text-align: center;
@@ -1098,7 +1091,7 @@ p[data-category="meets"] {
       display: none;
   }
 
-  /* Hero section adjustments */
+  
   .hero {
       min-height: 400px;
   }
@@ -1108,7 +1101,6 @@ p[data-category="meets"] {
   }
   
   
-  /* Content area adjustments */
   .content_area_blocks_area_row{
     margin-bottom: 20px;
     border-radius: 5px;
@@ -1129,7 +1121,7 @@ p[data-category="meets"] {
     grid-column: 1 / 5;
   }
   
-  /* Recipe page adjustments */
+ 
   .recepie-info {
       flex-direction: column;
       gap: 15px;
@@ -1141,7 +1133,7 @@ p[data-category="meets"] {
       padding: 0 20px;
   }
   
-  /* Headline adjustments */
+  
   .todays_recepies_headline,
   .category_selection_headline,
   .content_area_headline,
@@ -1151,7 +1143,6 @@ p[data-category="meets"] {
       padding: 0 20px;
   }
   
-  /* Footer adjustments */
   .footer-area {
       margin: 20px !important;
   }
