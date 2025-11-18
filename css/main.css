@@ -112,7 +112,7 @@ body, html{
 
 
 .hero{
-    background-image: url("/img/top-view-delicious-food-table\ 2.png");
+    background-image: url("img/top-view-delicious-food-table\ 2.png");
     min-height: 600px;
     height: auto;
     background-size: cover;
@@ -416,7 +416,7 @@ h5[data-category="cake"]  {
     align-items: center;
     min-height: 600px;
     height: auto;
-    background-image: url("/img/female-chef-preparing-dish.jpg");
+    background-image: url("img/female-chef-preparing-dish.jpg");
     background-size: cover;
     clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
     margin-top: 168px;
@@ -540,15 +540,15 @@ h5[data-category="cake"]  {
 }
 
 .content_area_block_img.img_1 {
-    background-image: url('/img/chef-squeezing-sauce-salad.png');
+    background-image: url('img/chef-squeezing-sauce-salad.png');
 }
 
 .content_area_block_img.img_2 {
-    background-image: url('/img/recepie_table_oranges.png');
+    background-image: url('img/recepie_table_oranges.png');
 }
 
 .content_area_block_img.img_3 {
-    background-image: url('/img/chef_making_meet.png');
+    background-image: url('img/chef_making_meet.png');
 }
 /* content area section end */
 
@@ -848,7 +848,7 @@ h5[data-category="cake"]  {
 }
 
 .soup-image-top {
-    background-image: url(/img/soup.png);
+    background-image: url(img/soup.png);
     background-size: cover;
     object-fit: contain;
     grid-row: 2;
