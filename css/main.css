@@ -1025,6 +1025,11 @@ p[data-category="meets"] {
 
 @media (max-width: 768px) {
 
+    :root{
+    /* Dimensions */ 
+    --width_full: 100%;
+    --width-12col: 768px;}
+
   .image-section,
   .categories {
       display: none !important;
